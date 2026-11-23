@@ -2,7 +2,7 @@
 
 **SQL Server · Python · Power BI**
 
-📊 [View Dashboard Screenshots](https://github.com/rohnitbhardwaj/rfm-customer-segmentation/blob/main/dashboard)
+📊 [View Dashboard Screenshots](images)
 
 ## Business Problem
 
@@ -59,7 +59,7 @@ Online Retail II transaction data (December 2009 to December 2011) from a UK-bas
 
 ## Project Files
 
-* `01_create_and_load.sql`: creates the database and schema and loads the raw CSVs
-* `02_data_consolidation_&_validation.sql`: combines both years, converts data types, validates and removes duplicates
-* `rfm_analysis.py`: RFM scoring, segmentation and export for the dashboard
-* `dashboard/`: Power BI screenshots
+* `sql/`: database setup and loading (`01_create_and_load.sql`) and consolidation, validation and deduplication (`02_data_consolidation_&_validation.sql`)
+* `python/`: RFM scoring, segmentation and export for the dashboard
+* `rfm_analysis_dashboard.pbix`: Power BI dashboard file
+* `images/`: dashboard screenshots
