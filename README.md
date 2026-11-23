@@ -50,8 +50,6 @@ Online Retail II transaction data (December 2009 to December 2011) from a UK-bas
 
 * The 90-day churn rule is an assumption, and it overlaps heavily with At Risk and Lost by design.
 * Returns and cancellations are excluded (about 6% of gross sales, roughly $1.08M), so revenue is gross, not net.
-* Revenue impact figures are illustrative estimates at historical spend. They assume a recovery rate and do not account for margin or campaign cost.
-* A few very large accounts skew the Champions average (mean $9,169 vs median $3,942).
 * Country averages rest on very few customers in some markets (for example, 5 in EIRE).
 * 2009 covers December only and 2011 runs to December 9, so year comparisons are partial.
 * Scores are quintile-based, so segments are relative to this customer base.
